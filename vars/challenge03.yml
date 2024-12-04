@@ -1,0 +1,6 @@
+---
+objectives:
+- mission: "primary"
+  planet: "luna park"
+- mission: "secondary"
+  planet: "cineplex 14"
