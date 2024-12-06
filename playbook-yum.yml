@@ -6,7 +6,7 @@
   tasks:
 
     - name: Install steam locomotive with yum
-      ansible.builtin.dnf:
+      ansible.builtin.yum:
         name: sl     # name of the package to install
         state: present
       become: yes # run as sudo
